@@ -1,0 +1,146 @@
+/* cart.css */
+.cart-page {
+  padding: 30px 0;
+}
+
+.cart-items-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-empty {
+  text-align: center;
+  padding: 50px 0;
+  display: none;
+}
+
+.cart-empty p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.continue-shopping {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffa07a;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.continue-shopping:hover {
+  background-color: #ff8c66;
+}
+
+.cart-items-list {
+  margin-bottom: 30px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-item-title {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.cart-item-price {
+  color: #ffa07a;
+  font-weight: bold;
+}
+
+.cart-item-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.quantity-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.quantity-value {
+  margin: 0 15px;
+  min-width: 20px;
+  text-align: center;
+}
+
+.remove-item {
+  background: none;
+  border: none;
+  color: #ff6b6b;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cart-summary {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  align-self: flex-end;
+  width: 300px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.total-price {
+  font-weight: bold;
+  color: #ffa07a;
+  font-size: 18px;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffa07a;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.checkout-btn:hover {
+  background-color: #ff8c66;
+}
+
+.checkout-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

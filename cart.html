@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Корзина</title>
+    <link rel="stylesheet" href="css/header_footer.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+  </head>
+  <body>
+    <script src="js/cart.js"></script>
+    <header class="container-fluid">
+      <div class="container d-flex">
+        <div class="content d-flex">
+          <img id="logo1" src="images/3.jpg" alt="logo" />
+          <p>Мур</p>
+        </div>
+        <nav class="menu">
+          <a href="index.html">Каталог</a>
+          <a href="info.html">О нас</a>
+          <a href="#">Доставка</a>
+          <a href="#">Контакты</a>
+        </nav>
+        <form name="search" action="#" method="get">
+          <div>
+            <input type="text" name="search" placeholder="Поиск по каталогу" />
+            <input type="submit" name="value" value="" />
+          </div>
+        </form>
+        <div class="cart d-flex">
+          <div class="cart-icon">
+            <a href="cart.html">
+              <img src="images/cart.png" alt="cart" />
+            </a>
+            <span class="cart-badge">0</span>
+          </div>
+          <div>
+            <p class="cart-total">0 руб</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container-fluid cart-page">
+      <div class="container">
+        <h1>Ваша корзина</h1>
+
+        <div class="cart-items-container">
+          <div class="cart-empty">
+            <p>Ваша корзина пуста</p>
+            <a href="index.html" class="continue-shopping"
+              >Вернуться к покупкам</a
+            >
+          </div>
+
+          <div class="cart-items-list"></div>
+
+          <div class="cart-summary">
+            <div class="summary-row">
+              <span>Товаров:</span>
+              <span class="items-count">0</span>
+            </div>
+            <div class="summary-row">
+              <span>Общая сумма:</span>
+              <span class="total-price">0 руб</span>
+            </div>
+            <button class="checkout-btn">Оформить заказ</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="container-fluid">
+      <div class="container d-flex">
+        <div class="left d-flex">
+          <figure>
+            <img id="logo1" src="images/3.jpg" alt="Logo" />
+            <figcaption>Интернет магазин постеров</figcaption>
+          </figure>
+          <nav class="menu">
+            <a class="active" href="#">Каталог</a>
+            <a href="info.html">О нас</a>
+            <a href="#">Доставка</a>
+            <a href="#">Контакты</a>
+          </nav>
+        </div>
+        <div class="right">
+          <div>
+            <p>Следите за нами в соц сетях</p>
+            <a href="#" class="box vk"></a>
+            <a href="#" class="box tg"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

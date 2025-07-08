@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/header_footer.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <script src="js/cart.js"></script>
+    <header class="container-fluid">
+      <div class="container d-flex">
+        <div class="content d-flex">
+          <img id="logo1" src="images/3.jpg" alt="logo" />
+          <p>Мур</p>
+        </div>
+        <nav class="menu">
+          <a class="active" href="index.html">Каталог</a>
+          <a href="info.html">О нас</a>
+          <a href="#">Доставка</a>
+          <a href="#">Контакты</a>
+        </nav>
+        <form name="search" action="#" method="get">
+          <div>
+            <input type="text" name="search" placeholder="Поиск по каталогу" />
+            <input type="submit" name="value" value="" />
+          </div>
+        </form>
+        <div class="cart d-flex">
+          <a href="cart.html">
+            <img src="images/cart.png" alt="cart" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="container-fluid">
+      <div class="container">
+        <div class="block1 d-flex">
+          <nav class="menu">
+            <a class="active" href="#">Котики</a>
+            <a href="#">Собачки</a>
+          </nav>
+          <div class="items">
+            <div class="boxes d-flex">
+              <div class="box" data-id="1">
+                <figure>
+                  <img src="images/1.jpg" alt="Кошка" />
+                  <figcaption>
+                    <p><span class="prise">123</span> руб.</p>
+                  </figcaption>
+                  <p><span class="title">Маруся</span> постер 50x50см</p>
+                </figure>
+                <button>В корзину</button>
+              </div>
+              <div class="box" data-id="2">
+                <figure>
+                  <img src="images/2.jpg" alt="bbb" />
+                  <figcaption>
+                    <p><span class="prise">456</span> руб.</p>
+                  </figcaption>
+                  <p><span class="title">Сонька</span> постер 50x50см</p>
+                </figure>
+                <button>В корзину</button>
+              </div>
+              <div class="box" data-id="3">
+                <figure>
+                  <img src="images/3.jpg" alt="bbb" />
+                  <figcaption>
+                    <p><span class="prise">789</span> руб.</p>
+                  </figcaption>
+                  <p><span class="title">Мурка</span> постер 50x50см</p>
+                </figure>
+                <button>В корзину</button>
+              </div>
+              <div class="box" data-id="4">
+                <figure>
+                  <img src="images/4.jpg" alt="bbb" />
+                  <figcaption>
+                    <p><span class="prise">1011</span> руб.</p>
+                  </figcaption>
+                  <p><span class="title">Снежка</span> постер 50x50см</p>
+                </figure>
+                <button>В корзину</button>
+              </div>
+              <div class="box" data-id="5">
+                <figure>
+                  <img src="images/5.jpg" alt="bbb" />
+                  <figcaption>
+                    <p><span class="prise">250</span> руб.</p>
+                  </figcaption>
+                  <p><span class="title">Мышка</span> постер 50x50см</p>
+                </figure>
+                <button>В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container-fluid">
+      <div class="container d-flex">
+        <div class="left d-flex">
+          <figure>
+            <img id="logo1" src="images/3.jpg" alt="Logo" />
+            <figcaption>Интернет магазин постеров</figcaption>
+          </figure>
+          <nav class="menu">
+            <a class="active" href="#">Каталог</a>
+            <a href="info.html">О нас</a>
+            <a href="#">Доставка</a>
+            <a href="#">Контакты</a>
+            <a href="#">Политика конфиденциальности</a>
+          </nav>
+        </div>
+        <div class="right">
+          <div>
+            <p>Следите за нами в соц сетях</p>
+            <a href="#" class="box vk"></a>
+            <a href="#" class="box tg"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

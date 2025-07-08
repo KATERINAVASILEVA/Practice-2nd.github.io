@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: opensans;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/font.ttf");
+}
+
+body {
+  font-family: "opensans";
+  width: 100%;
+  font-size: 16px;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-color: rgb(222, 209, 188);
+}
+
+header > .container {
+  padding: 20px 20px;
+  margin-bottom: 10px;
+}
+
+#logo1 {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+header .content {
+  width: 100px;
+}
+
+header .container .content p {
+  font-size: 25px;
+  margin-left: 10px;
+  color: #4b4b4e;
+}
+
+header .container .menu a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #4b4b4ebd;
+  margin: 20px;
+}
+
+header .container .menu a:hover,
+header .container .menu a.active {
+  color: #4b4b4e;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #4b4b4e;
+}
+
+header form div {
+  justify-content: center;
+  padding: 10px 20px;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 50px;
+}
+
+header form div input[type="text"] {
+  border: none;
+  margin-right: 10px;
+}
+
+header form div input[type="submit"] {
+  background: url("../images/research.png") no-repeat;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  border: none;
+}
+
+header .cart {
+  align-items: flex-start;
+}
+
+header .cart img {
+  width: 45px;
+  margin-right: 7px;
+}
+
+header .cart div p {
+  font-size: 14px;
+  color: #4b4b4e;
+}
+
+header .cart div a {
+  font-size: 12px;
+  color: #ffa07a;
+}
+
+footer {
+  background-color: #4b4b4e;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+footer .container {
+  align-items: flex-start;
+}
+
+footer .left {
+  align-items: flex-start;
+}
+
+footer .left figure figcaption {
+  color: aliceblue;
+  font-size: 16px;
+  margin-top: 25px;
+  width: 200px;
+}
+
+footer .left figure img {
+  margin-left: 40px;
+}
+
+footer .left nav {
+  margin-left: 100px;
+}
+
+footer .left nav a {
+  display: block;
+  font-size: 14px;
+  color: aliceblue;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+footer .left nav a:hover,
+footer .left nav a.active {
+  color: #ffa07a;
+}
+
+footer .right form div {
+  justify-content: left;
+  width: 458px;
+  border-bottom: 1px solid aliceblue;
+}
+
+footer .right form input[type="text"] {
+  padding: 15px 0;
+  width: 100%;
+  background: none;
+  border: none;
+}
+
+footer .right > div {
+  text-align: center;
+  font-size: 14px;
+  color: aliceblue;
+  margin-top: 33px;
+  margin-bottom: 20px;
+}
+
+footer .right .box {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-top: 16px 16px;
+}
+
+footer .right .vk {
+  background: url("../images/vk.png") no-repeat;
+  background-size: cover;
+}
+
+footer .right .tg {
+  background: url("../images/tg.png") no-repeat;
+  background-size: cover;
+}
